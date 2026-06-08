@@ -14,6 +14,16 @@ Phase 3 (July 20 – Sept 6) - Data Collection: Build chest phantom · Record in
 Phase 4 (Sept 7 – Oct 5) - Analysis & Write-Up: Statistical analysis (SNR, Cohen's κ, ANOVA) · Open-source all files on GitHub + Zenodo · Write HardwareX manuscript · Internal review & revise · Submit by October 5
 
 Repository Structure:
+Analysis: Python analysis scripts for the Open Stethoscope project. 
+  Purpose: This folder will contain code for processing recordings, calculating acoustic metrics, generating figures, and reproducing the results. 
+Data Dataset: documentation for the Open Stethoscope project. 
+  Purpose: This folder will document recording metadata, dataset structure, labeling conventions, and links to released data. 
+Docs: Project documentation for the Open Stethoscope project. 
+  Purpose: This folder will contain research notes, build instructions, protocols, manuscript drafts, and supplementary documentation. 
+Firmware: Arduino firmware for the Open Stethoscope project. 
+  Purpose: This folder will contain
+Hardware: Hardware design files for the Open Stethoscope project. 
+  Purpose: This folder will contain CAD files, schematics, enclosure designs, chest piece models, wiring diagrams, and the bill of materials. 
 
 Hardware List: 
 - 3D-printed chest piece files

@@ -22,19 +22,19 @@ We design, build, and openly publish a sub-$100 digital stethoscope (containing 
 
 ## **Repository Structure:**
 **Analysis**: Python analysis scripts for the Open Stethoscope project. 
-  Purpose: This folder will contain code for processing recordings, calculating acoustic metrics, generating figures, and reproducing the results. 
+  **Purpose**: This folder will contain code for processing recordings, calculating acoustic metrics, generating figures, and reproducing the results. 
 
 **Data Dataset**: documentation for the Open Stethoscope project. 
-  Purpose: This folder will document recording metadata, dataset structure, labeling conventions, and links to released data. 
+  **Purpose**: This folder will document recording metadata, dataset structure, labeling conventions, and links to released data. 
 
 **Docs**: Project documentation for the Open Stethoscope project. 
-  Purpose: This folder will contain research notes, build instructions, protocols, manuscript drafts, and supplementary documentation. 
+  **Purpose**: This folder will contain research notes, build instructions, protocols, manuscript drafts, and supplementary documentation. 
 
 **Firmware**: Arduino firmware for the Open Stethoscope project. 
-  Purpose: This folder will contain
+  **Purpose**: This folder will contain
 
 **Hardware**: Hardware design files for the Open Stethoscope project. 
-  Purpose: This folder will contain CAD files, schematics, enclosure designs, chest piece models, wiring diagrams, and the bill of materials. 
+  **Purpose**: This folder will contain CAD files, schematics, enclosure designs, chest piece models, wiring diagrams, and the bill of materials. 
 
 ## **Hardware List:** 
 - 3D-printed chest piece files
@@ -47,4 +47,5 @@ We design, build, and openly publish a sub-$100 digital stethoscope (containing 
 
 ## **Target Journal (HardwareX):** 
 **What is it?:** HardwareX is an open-access, peer-reviewed journal published by Elsevier that focuses on open-source scientific hardware. Researchers publish designs for lab equipment, sensors, 3D-printed tools, educational devices, and other scientific instruments so that others can build, modify, and improve them.
+
 **Why HardwareX?:** HardwareX (Elsevier, open-access) was purpose-built for exactly this type of project. No institutional affiliation required. Their stated scope explicitly covers 'low-cost alternatives to existing tools' and 'wearable/out-of-lab sensors' — a near-perfect match.

@@ -25,3 +25,5 @@ Hardware List:
 - Calibration notes
 
 Target Journal (HardwareX): 
+What is it?: HardwareX is an open-access, peer-reviewed journal published by Elsevier that focuses on open-source scientific hardware. Researchers publish designs for lab equipment, sensors, 3D-printed tools, educational devices, and other scientific instruments so that others can build, modify, and improve them.
+Why HardwareX?: HardwareX (Elsevier, open-access) was purpose-built for exactly this type of project. No institutional affiliation required. Their stated scope explicitly covers 'low-cost alternatives to existing tools' and 'wearable/out-of-lab sensors' — a near-perfect match.

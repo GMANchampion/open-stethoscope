@@ -24,14 +24,14 @@ We design, build, and openly publish a sub-$100 digital stethoscope (containing 
 **Analysis**: Python analysis scripts for the Open Stethoscope project. 
   **Purpose**: This folder will contain code for processing recordings, calculating acoustic metrics, generating figures, and reproducing the results. 
 
-**Data Dataset**: documentation for the Open Stethoscope project. 
+**Data Dataset**: Documentation for the Open Stethoscope project. 
   **Purpose**: This folder will document recording metadata, dataset structure, labeling conventions, and links to released data. 
 
 **Docs**: Project documentation for the Open Stethoscope project. 
   **Purpose**: This folder will contain research notes, build instructions, protocols, manuscript drafts, and supplementary documentation. 
 
 **Firmware**: Arduino firmware for the Open Stethoscope project. 
-  **Purpose**: This folder will contain
+  **Purpose**: This folder will contain documentation on all electronic firmware components
 
 **Hardware**: Hardware design files for the Open Stethoscope project. 
   **Purpose**: This folder will contain CAD files, schematics, enclosure designs, chest piece models, wiring diagrams, and the bill of materials. 

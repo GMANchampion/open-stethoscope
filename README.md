@@ -3,13 +3,13 @@
 Open-source adaptive digital stethoscope with real-time noise cancellation, acoustic biomarker logging, and reproducible hardware/software files for low-cost cardiopulmonary auscultation research. 
 
 ## **The Problem**: 
-Auscultation (listening to heart and lung sounds with a stethoscope) is one of the most widely used diagnostic tools in medicine. But, the widespread acoustic stethoscope has changed almost nothing since 1816, and is subjective, non-recordable, dependent on clinician experience, and performs poorly in noisy environments. These limitations become critical in low-resource settings, where the gap in accessible respiratory diagnostics is widest.
+Unlike nearly every other diagnostic tool, Auscultation (listening to heart and lung sounds with a stethoscope) remains one of the most widely used diagnostic tools in medicine. Despite this, the widespread acoustic stethoscope has barely changed since 1816. Moreover, it is subjective and non-recordable, while being dependent on the clinician's experience and performing poorly in noisy environments. In low-resource settings where there is a large gap in accessible respiratory diagnostics, these become highly critical limitations.
 
-## **Why it Matter**s: 
-Asthma affects over 300 million people globally. COPD (chronic obstructive pulmonary disease) is the third leading cause of death worldwide. Pneumonia kills over 2 million children under five annually, and most of them live in settings where a pulmonologist and a quiet examination room are both unavailable. Digital stethoscopes offer a path forward, but the cheapest validated commercial options start at $200–$500.
+## **Why it Matters**: 
+Asthma affects over 300 million people globally, COPD (chronic obstructive pulmonary disease) is the third leading cause of death worldwide, and Pneumonia kills over 2 million children under five annually, with most of them living in settings where a pulmonologist and a quiet examination room are both unavailable. While there are valid commercial options, most of them start at around $200-$500, making them unaffordable to many.
 
 ## **Thesis:** 
-We design, build, and openly publish a sub-$100 digital stethoscope (containing an Arduino Nano + MEMS microphone + 3D-printed chest piece) with onboard adaptive noise filtering and a Raspberry Pi logging hub. We rigorously characterize its acoustic performance across four controlled noise environments (anechoic, clinic-level, ICU-analog, domestic) and compare it in parallel against a Littmann 3200 (the markets leading electronic stethoscope) — to produce the first openly reproducible stethoscope characterization dataset and establishing a validated open-hardware reference design for low-resource auscultation research.
+We design, build, and openly publish a sub-$100 digital stethoscope (containing an Arduino Nano + MEMS microphone + 3D-printed chest piece) with onboard adaptive noise filtering and a Raspberry Pi logging hub. We rigorously characterize its acoustic performance across four controlled noise environments (anechoic, clinic-level, ICU-analog, domestic) and compare it in parallel against a Littmann 3200. (the markets leading electronic stethoscope). The goal is to produce the first openly reproducible stethoscope characterization dataset and establishing a validated open-hardware reference design for low-resource auscultation research.
 
 ## **Timeline:** 
 **Phase 1 (June 8 – June 28) -** Hardware Build: 3D print chest piece · Wire MEMS mic to Arduino Nano · Connect Raspberry Pi · Wire piezoelectric sensor · Basic audio capture test
@@ -25,7 +25,7 @@ We design, build, and openly publish a sub-$100 digital stethoscope (containing 
   **Purpose**: This folder will contain code for processing recordings, calculating acoustic metrics, generating figures, and reproducing the results. 
 
 **Data Dataset**: Documentation for the Open Stethoscope project. 
-  **Purpose**: This folder will document recording metadata, dataset structure, labeling conventions, and links to released data. 
+  **Purpose**: This folder will document the recorded metadata, dataset structure, labeling conventions, and links to released data. 
 
 **Docs**: Project documentation for the Open Stethoscope project. 
   **Purpose**: This folder will contain research notes, build instructions, protocols, manuscript drafts, and supplementary documentation. 
@@ -46,6 +46,6 @@ We design, build, and openly publish a sub-$100 digital stethoscope (containing 
 - Calibration notes
 
 ## **Target Journal (HardwareX):** 
-**What is it?:** HardwareX is an open-access, peer-reviewed journal published by Elsevier that focuses on open-source scientific hardware. Researchers publish designs for lab equipment, sensors, 3D-printed tools, educational devices, and other scientific instruments so that others can build, modify, and improve them.
+**What is it?:** HardwareX is an open-access and peer-reviewed journal that is centered around open-source scientific hardware, meaning that anyone can access them. Researchers publish designs for lab equipment, sensors, 3D-printed tools, educational devices, and other scientific instruments. This allows others to build, modify, and improve these submissions.
 
-**Why HardwareX?:** HardwareX (Elsevier, open-access) was purpose-built for exactly this type of project. No institutional affiliation required. Their stated scope explicitly covers 'low-cost alternatives to existing tools' and 'wearable/out-of-lab sensors' — a near-perfect match.
+**Why HardwareX?:** HardwareX’s purpose directly aligns with the objective of this type of project. There is no institutional affiliation required, and their stated scope explicitly covers 'low-cost alternatives to existing tools' and 'wearable/out-of-lab sensors,' exactly what this project aims to do.
